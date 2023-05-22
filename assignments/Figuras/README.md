@@ -34,7 +34,7 @@ classDiagram
     class Circulo {
         - radio : int
       }
-        Circulo: + circunferencia() int
+        Circulo: + circunferencia() double
     
     class Rectangulo {
         - ancho: int
