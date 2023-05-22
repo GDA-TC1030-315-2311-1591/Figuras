@@ -35,12 +35,14 @@ classDiagram
         - radio : int
       }
         Circulo: + circunferencia() double
+        Circulo: + dibuja() void
     
     class Rectangulo {
         - ancho: int
         - largo: int
       }
         Rectangulo: + perimetro() int
+        Rectangulo: + dibuja() void
 ```
 
 Es importante que vayas siguiendo a la profesora en clase para que tengas tu ejemplo construido y corriendo y te sirva de base para tus tareas.
